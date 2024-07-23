@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    min-width: 1100px;
+}
+
+.section1 {
+    background-color: #1F2937;
+}
+
+.section1-header,
+.section1-introduction {
+    margin-left: 150px;
+    margin-right: 150px;
+
+    padding-top: 10px;
+}
+
+.section1-header > ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.section1-header-headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 1000;
+    margin-right: auto;
+}
+
+.section1-header-headerLink {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.section1-introduction {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    justify-content: space-between;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section1-introduction-text-title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: white;
+    line-height: 40px;
+
+}
+
+.section1-introduction-text-description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #E5E7EB;
+}
+
+.section1-introduction-text-button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.section1-introduction-image {
+    padding: 0;
+    border: 0;
+}
+
+.section1-introduction-image > img {
+    width: 500px;
+}
+
+.section1-emptyspace {
+    height: 20px;
+    width: auto;
+}
+
+.section2-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.section2-information,
+.section2-descriptions {
+    margin-left: 150px;
+    margin-right: 150px;
+
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2-information-box {
+    height: 150px;
+    width: 150px;
+    border: 6px solid #3882F6;
+
+    border-radius: 20px;
+}
+
+.section2-descriptions-description {
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.section2-emptyspace {
+    height: 50px;
+    width: auto;    
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+    width: auto;
+    background-color: #E5E7EB;
+}
+
+.section3-quote {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.section3-quote-text {
+    font-size: 32px;
+}
+
+.section3-quote-author {
+    text-align: right;
+    font-size: 16px;
+}
+
+.section4 {
+    height: 250px;
+    width: auto;
+}
+
+.section4-signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left:80px;
+    padding-right: 80px;
+
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.section4-signup-text-title {
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 5px; 
+    margin-right: auto;
+}
+
+.section4-signup-button-button {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+
+    font-size: 16px;
+    font-weight: 500;
+}
